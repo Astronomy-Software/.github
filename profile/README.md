@@ -1,7 +1,7 @@
-## Hi there 👋
-
+# Astronomy-Software
+## Byeoldori Project
+천문우주학과에서 소프트웨어학과 복수전공 중인 학우 세명이서 진행중인 프로젝트입니다.
 <!--
-
 **Here are some ideas to get you started:**
 
 🙋‍♀️ A short introduction - what is your organization all about?
