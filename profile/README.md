@@ -17,7 +17,7 @@
 
 **교육 · 별지도 · 관측 추천 · 커뮤니티**를 하나로 결합한 천체관측 교육 애플리케이션입니다.
 
-별도리는 단순한 천문 앱이 아닙니다.
+별도리는 단순한 별자리 지도앱이 아닙니다.
 
 앱 속 마스코트 캐릭터 **“별도리”**가
 사용자와 함께 하늘을 탐험합니다.
@@ -27,7 +27,7 @@
 * 관측 방법 안내
 * 학습 프로그램 진행
 
-마치 **천문학 나레이터와 함께 밤하늘을 탐험하는 경험**을 제공합니다.
+마치 **천문 나레이터와 함께 밤하늘을 탐험하는 경험**을 제공합니다.
 
 ### 기여자
 
@@ -37,12 +37,71 @@
 
 김채영 FrontEnd 
 
+양민규 캐릭터 디자인 / Live2D
+
 ---
-## 2. 시연영상 및 1 페이지 설명서
+## 2. 포스터 및 시연영상
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img width="100%" alt="포스터"
+src="https://github.com/user-attachments/assets/c50fcbeb-6931-496c-b072-d78772d0f228"/>
+
+</td>
+
+<td width="50%">
+
+<video src="영상1주소"
+controls
+width="100%">
+</video>
+
+<br><br>
+
+<video src="영상2주소"
+controls
+width="100%">
+</video>
+
+</td>
+
+</tr>
+</table>
 
 ## 3. 시스템 구성
 
-시스템 구성도
+<table>
+<tr>
+<td width="70%">
+
+<img width="100%" alt="system architecture" src="https://github.com/user-attachments/assets/02b5dd6d-de79-4c96-82a1-84d7b52268fe" />
+
+</td>
+
+<td width="30%">
+
+### Mobile
+- Kotlin
+- Jetpack Compose
+- OpenGL ES
+
+### Backend
+- Spring Boot
+- MySQL
+- REST API
+
+### External Data
+- Korea Meteorological Administration API
+- NASA VIIRS Nighttime Lights
+- Naver Map API
+
+</td>
+</tr>
+</table>
+
 
 ## 4. 핵심 기능 소개
 
@@ -53,7 +112,7 @@
 - 4. 천체 관측 교육 프로그램
 - 5. 관측 커뮤니티
 
-### 실시간 별지도
+### 1) 별지도
 
 스마트폰을 하늘로 들어 올리면
 **실시간 별지도**가 나타납니다.
@@ -67,7 +126,7 @@
 
 ---
 
-### 관측 최적화 정보 제공
+### 2) 관측 최적화 정보 제공
 
 별이 잘 보이는 장소는 생각보다 많지 않습니다.
 
@@ -96,7 +155,7 @@ NASA 위성 데이터를 기반으로
 
 ---
 
-### 천체관측 교육 프로그램
+### 3) 천체관측 교육 프로그램
 
 별도리 캐릭터와 함께하는
 **단계형 천체 관측 교육 프로그램**
@@ -109,41 +168,16 @@ NASA 위성 데이터를 기반으로
 
 ---
 
-### 관측 커뮤니티 
+### 4) 관측 커뮤니티 
 
 관측 경험을 다른 사용자와 공유할 수 있습니다.
 
 * 관측 후기 작성
 * 천체 사진 공유
-* 다른 관측 경험 확인
+* 다른 사람들의 관측 경험 확인
 
 **천체관측 커뮤니티를 형성하는 공간**입니다.
 
----
-
----
-
-# 🛠 Tech Stack
-
-### Mobile
-
-* Kotlin
-* Jetpack Compose
-* OpenGL ES
-
-### Backend
-
-* Spring Boot
-* MySQL
-* REST API
-
-### External Data
-
-* Korea Meteorological Administration API
-* NASA VIIRS Nighttime Lights
-* Naver Map API
-
 ## 5. 기대효과
 
-## 6. ??
 
