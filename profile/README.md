@@ -1,12 +1,149 @@
-# Astronomy-Software
-## Byeoldori Project
-천문우주학과에서 소프트웨어학과 복수전공 중인 학우 세명이서 진행중인 프로젝트입니다.
-<!--
-**Here are some ideas to get you started:**
+<p align="center">
+  <img width="100%" alt="배너 별도리" src="https://github.com/user-attachments/assets/76f3922c-3170-4d40-89e6-020851ad7fe2" />
+</p>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 1. **“별을 처음 보는 순간을 만들어주는 천체관측 교육 앱 "별도리"”**
+
+천체관측은 많은 사람들이 흥미를 가지지만, 실제로 시작하기는 어렵습니다.
+
+* 어디에서 관측해야 할까? Where?
+* 언제 밤하늘의 별이 잘 보일까? When?
+* 별자리는 어떻게 찾지? How?
+
+**Byeoldori는 이런 질문에서 시작되었습니다.**
+
+초보자와 학생들이
+천문학을 **배우고 → 실제로 관측하고 → 경험을 공유할 수 있도록**
+
+**교육 · 별지도 · 관측 추천 · 커뮤니티**를 하나로 결합한 천체관측 교육 애플리케이션입니다.
+
+별도리는 단순한 천문 앱이 아닙니다.
+
+앱 속 마스코트 캐릭터 **“별도리”**가
+사용자와 함께 하늘을 탐험합니다.
+
+* 별자리 찾기
+* 천체 설명
+* 관측 방법 안내
+* 학습 프로그램 진행
+
+마치 **천문학 나레이터와 함께 밤하늘을 탐험하는 경험**을 제공합니다.
+
+### 기여자
+
+서범수 총괄 및 기획 디자인
+
+윤태영 BackEnd / CI/CD
+
+김채영 FrontEnd 
+
+---
+## 2. 시연영상 및 1 페이지 설명서
+
+## 3. 시스템 구성
+
+시스템 구성도
+
+## 4. 핵심 기능 소개
+
+- 별도리의 핵심 기능은 다음과 같습니다.
+- 1. 실시간 별지도
+- 2. 관측지 정보 제공
+- 3. 마스코트 캐릭터 별도리
+- 4. 천체 관측 교육 프로그램
+- 5. 관측 커뮤니티
+
+### 실시간 별지도
+
+스마트폰을 하늘로 들어 올리면
+**실시간 별지도**가 나타납니다.
+
+* 센서 기반 천구 렌더링
+* 별자리 표시
+* 천체 검색
+* 줌 / 시간 이동
+
+마치 **나만의 천체투영실** 같은 경험을 제공합니다.
+
+---
+
+### 관측 최적화 정보 제공
+
+별이 잘 보이는 장소는 생각보다 많지 않습니다.
+
+Byeoldori는 다음 데이터를 분석하여
+**관측 적합도(Observation Score)** 를 계산합니다.
+
+* 위치정보
+* 날씨
+* 구름량
+* 달 위상
+* 광공해
+
+그래서 사용자에게
+
+**오늘 밤 가장 좋은 관측 장소**를 추천합니다.
+
+---
+
+#### 광공해지도는 최적화지도의 추가정보일뿐임 
+
+NASA 위성 데이터를 기반으로
+대한민국 **광공해 지도**를 제공합니다.
+
+별이 잘 보이는 지역을
+지도에서 직관적으로 확인할 수 있습니다.
+
+---
+
+### 천체관측 교육 프로그램
+
+별도리 캐릭터와 함께하는
+**단계형 천체 관측 교육 프로그램**
+
+* 별자리 학습
+* 관측 방법 안내
+* 실제 관측 가이드
+
+천문학을 **처음 배우는 사용자도 쉽게 이해**할 수 있도록 설계되었습니다.
+
+---
+
+### 관측 커뮤니티 
+
+관측 경험을 다른 사용자와 공유할 수 있습니다.
+
+* 관측 후기 작성
+* 천체 사진 공유
+* 다른 관측 경험 확인
+
+**천체관측 커뮤니티를 형성하는 공간**입니다.
+
+---
+
+---
+
+# 🛠 Tech Stack
+
+### Mobile
+
+* Kotlin
+* Jetpack Compose
+* OpenGL ES
+
+### Backend
+
+* Spring Boot
+* MySQL
+* REST API
+
+### External Data
+
+* Korea Meteorological Administration API
+* NASA VIIRS Nighttime Lights
+* Naver Map API
+
+## 5. 기대효과
+
+## 6. ??
+
